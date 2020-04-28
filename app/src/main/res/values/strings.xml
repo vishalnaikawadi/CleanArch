@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="data_write_fail">Error while saving data. Please retry again.</string>
+    <string name="data_update_fail">Error while updating data. Please retry again.</string>
+    <string name="no_record_found">No Record found</string>
+    <string name="connect_to_internet">Please connect to Internet</string>
+</resources>
