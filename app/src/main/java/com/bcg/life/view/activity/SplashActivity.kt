@@ -13,6 +13,8 @@ class SplashActivity : BaseActivity<ActivitySplashBinding>() {
     lateinit var splashViewModel: SplashViewModel
 
     //This is the only change
+    //changes made from home.
+    //equal to function added.
     override fun init() {
         splashViewModel = ViewModelProvider(this).get(SplashViewModel::class.java)
         splashViewModel.testMethod()
