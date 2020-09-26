@@ -13,7 +13,6 @@ class SplashActivity : BaseActivity<ActivitySplashBinding>() {
     lateinit var splashViewModel: SplashViewModel
 
     //This is the only change
-
     override fun init() {
         splashViewModel = ViewModelProvider(this).get(SplashViewModel::class.java)
         splashViewModel.testMethod()
